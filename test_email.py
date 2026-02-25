@@ -20,4 +20,4 @@ with smtplib.SMTP(host, port, timeout=10) as s:
     s.login(user, pw)
     s.send_message(msg)
 
-print("✅ TEST EMAIL SENT SUCCESSFULLY")
+print("TEST EMAIL SENT SUCCESSFULLY")
